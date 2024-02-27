@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuite_HitungProperti,Chrome 121.0.0.0,,,26-02-2024 21:15:03,26-02-2024 21:15:30,26.863s,ERROR
+,,,,,,,
+Test Cases/simulasiHitung,Chrome 121.0.0.0,Simulasi perhitungan properti,,26-02-2024 21:15:04,26-02-2024 21:15:13,9.133s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 21:15:05,26-02-2024 21:15:09,4.065s,PASSED
+navigateToUrl(UrlHitungProperti),Chrome 121.0.0.0,,,26-02-2024 21:15:09,26-02-2024 21:15:13,3.669s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,26-02-2024 21:15:13,26-02-2024 21:15:13,0.060s,PASSED
+rumus = Penghasilan - Pengeluaran * jangkaWaktu * 12 / 3,Chrome 121.0.0.0,,,26-02-2024 21:15:13,26-02-2024 21:15:13,0.109s,ERROR
+,,,,,,,
+Test Cases/simulasiHitung,Chrome 121.0.0.0,Simulasi perhitungan properti,,26-02-2024 21:15:13,26-02-2024 21:15:16,3.408s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 21:15:13,26-02-2024 21:15:15,1.454s,PASSED
+navigateToUrl(UrlHitungProperti),Chrome 121.0.0.0,,,26-02-2024 21:15:15,26-02-2024 21:15:15,0.175s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,26-02-2024 21:15:15,26-02-2024 21:15:16,1.690s,PASSED
+rumus = Penghasilan - Pengeluaran * jangkaWaktu * 12 / 3,Chrome 121.0.0.0,,,26-02-2024 21:15:16,26-02-2024 21:15:16,0.014s,ERROR
+,,,,,,,
+Test Cases/simulasiHitung,Chrome 121.0.0.0,Simulasi perhitungan properti,,26-02-2024 21:15:17,26-02-2024 21:15:22,5.430s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 21:15:17,26-02-2024 21:15:18,1.264s,PASSED
+navigateToUrl(UrlHitungProperti),Chrome 121.0.0.0,,,26-02-2024 21:15:18,26-02-2024 21:15:22,3.948s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,26-02-2024 21:15:22,26-02-2024 21:15:22,0.127s,PASSED
+rumus = Penghasilan - Pengeluaran * jangkaWaktu * 12 / 3,Chrome 121.0.0.0,,,26-02-2024 21:15:22,26-02-2024 21:15:22,0.009s,ERROR
+,,,,,,,
+Test Cases/simulasiHitung,Chrome 121.0.0.0,Simulasi perhitungan properti,,26-02-2024 21:15:23,26-02-2024 21:15:30,7.526s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 21:15:23,26-02-2024 21:15:24,1.385s,PASSED
+navigateToUrl(UrlHitungProperti),Chrome 121.0.0.0,,,26-02-2024 21:15:24,26-02-2024 21:15:30,5.855s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,26-02-2024 21:15:30,26-02-2024 21:15:30,0.174s,PASSED
+rumus = Penghasilan - Pengeluaran * jangkaWaktu * 12 / 3,Chrome 121.0.0.0,,,26-02-2024 21:15:30,26-02-2024 21:15:30,0.030s,ERROR
