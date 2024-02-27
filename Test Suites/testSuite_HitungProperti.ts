@@ -12,13 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>02d5be8b-533e-454d-8e82-55bca7b37799</testSuiteGuid>
    <testCaseLink>
-      <guid>d9d08243-e31b-467c-8b72-bc44b7bce950</guid>
+      <guid>2bb65e5d-1412-40a2-a772-f61b9ac1df1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/simulasiHitung</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>e3b9e182-2ec3-465a-b777-985f2eac3e73</id>
+         <id>7681fdb7-b0ee-401d-b631-c5537b23f2d1</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,40 +27,40 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>e3b9e182-2ec3-465a-b777-985f2eac3e73</testDataLinkId>
+         <testDataLinkId>7681fdb7-b0ee-401d-b631-c5537b23f2d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>testType</value>
-         <variableId>4f0e0f34-2620-4a56-b5e6-868327a4b198</variableId>
+         <variableId>55c3668f-e1f8-4af5-8510-6511e4b4259d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e3b9e182-2ec3-465a-b777-985f2eac3e73</testDataLinkId>
+         <testDataLinkId>7681fdb7-b0ee-401d-b631-c5537b23f2d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Penghasilan</value>
-         <variableId>4c60a707-5fca-4fd0-84f3-825eb8222c24</variableId>
+         <variableId>82980811-7b83-4f85-a711-97bd8bb08a3c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e3b9e182-2ec3-465a-b777-985f2eac3e73</testDataLinkId>
+         <testDataLinkId>7681fdb7-b0ee-401d-b631-c5537b23f2d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Pengeluaran</value>
-         <variableId>4db9a068-b479-4f6e-bc42-55d82bce3c7a</variableId>
+         <variableId>2a566569-86b3-41d8-bd3d-086a3f880d4d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e3b9e182-2ec3-465a-b777-985f2eac3e73</testDataLinkId>
+         <testDataLinkId>7681fdb7-b0ee-401d-b631-c5537b23f2d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ExpectedWarningData</value>
-         <variableId>e2fd18f5-bdb4-4f76-bfdd-49887bd60995</variableId>
+         <variableId>52aac871-3604-4a66-ac85-b2ad21f5feab</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e3b9e182-2ec3-465a-b777-985f2eac3e73</testDataLinkId>
+         <testDataLinkId>7681fdb7-b0ee-401d-b631-c5537b23f2d1</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>JangkaWaktu</value>
-         <variableId>95749e43-936a-4019-a154-9513b9171e4d</variableId>
+         <variableId>b40d724e-2048-4222-9265-ebb0fc6d69e6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d767cd5f-8769-413e-b1e2-919828948f12</variableId>
+         <testDataLinkId>7681fdb7-b0ee-401d-b631-c5537b23f2d1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Perhitungan</value>
+         <variableId>41b8f4ab-2be3-49ae-bb92-d2d84a806692</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

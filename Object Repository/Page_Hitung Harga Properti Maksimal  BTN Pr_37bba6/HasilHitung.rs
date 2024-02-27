@@ -6,20 +6,21 @@
    <elementGuidId>0335534a-87ee-4245-82d7-811abfefb748</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
+         <value>//*[@id=&quot;harga_hasil&quot;]/h3</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'harga_hasil']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +28,6 @@
       <name>id</name>
       <type>Main</type>
       <value>harga_hasil</value>
-      <webElementGuid>2dee5006-97d2-4838-a566-2063f2b6c0f9</webElementGuid>
+      <webElementGuid>f999697e-702a-4eb8-b568-607f1476c133</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
