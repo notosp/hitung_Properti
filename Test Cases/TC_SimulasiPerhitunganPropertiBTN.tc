@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Simulasi perhitungan properti</description>
-   <name>simulasiHitung</name>
+   <name>TC_SimulasiPerhitunganPropertiBTN</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>98521f6d-9d43-4ab6-ab70-0bb2cfe391d7</testCaseGuid>

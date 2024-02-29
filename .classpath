@@ -182,7 +182,6 @@
 			<attribute name="javadoc_location" value="file:/C:/Users/Noto/.katalon/packages/Katalon_Studio_Windows_64-9.3.0/Katalon_Studio_Windows_64-9.3.0/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Noto/.katalon/packages/Katalon_Studio_Windows_64-9.3.0/Katalon_Studio_Windows_64-9.3.0/configuration/plugin/install/211676/1.0.1/katalon-plugin-assert-custom-keyword.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Noto/.katalon/packages/Katalon_Studio_Windows_64-9.3.0/Katalon_Studio_Windows_64-9.3.0/configuration/org.eclipse.osgi/27/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>testSuite_HitungProperti</name>
+   <name>TS_HitungProperti</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,7 +15,7 @@
       <guid>2bb65e5d-1412-40a2-a772-f61b9ac1df1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/simulasiHitung</testCaseId>
+      <testCaseId>Test Cases/TC_SimulasiPerhitunganPropertiBTN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7681fdb7-b0ee-401d-b631-c5537b23f2d1</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Data Input Simulasi Hitung</testDataId>
+         <testDataId>Data Files/Data_Input_Simulasi_Properti</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

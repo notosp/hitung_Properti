@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_HitungProperti" time="334.094" tests="6" failures="1" errors="0">
+   <testsuite name="TS_HitungProperti" tests="6" failures="1" errors="0" time="334.094" skipped="0" timestamp="28-02-2024T15:11:03" hostname="Noto - 172.0.2.137" id="Test Suites/TS_HitungProperti">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\NOTO\\hitungProperti\\Reports\\20240228_151050\\TS_HitungProperti\\20240228_151051"/>
+         <property name="logFiles" value="D:\\NOTO\\hitungProperti\\Reports\\20240228_151050\\TS_HitungProperti\\20240228_151051\\execution0.log"/>
+         <property name="attachments" value="D:\\NOTO\\hitungProperti\\Reports\\20240228_151050\\TS_HitungProperti\\20240228_151051\\1709108033167.png, D:\\NOTO\\hitungProperti\\Reports\\20240228_151050\\TS_HitungProperti\\20240228_151051\\1709108033436.png"/>
+         <property name="hostName" value="Noto - 172.0.2.137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="172.0.2.137"/>
+         <property name="sessionId" value="0dc8e019c8b6ba4ff8d20f2e95b2e7a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_SimulasiPerhitunganPropertiBTN" time="77.661" classname="Test Cases/TC_SimulasiPerhitunganPropertiBTN" status="PASSED">
+         <system-out><![CDATA[28-02-2024T15:11:04 - [TEST_CASE][PASSED] - Test Cases/TC_SimulasiPerhitunganPropertiBTN: Test Cases/TC_SimulasiPerhitunganPropertiBTN
+
+28-02-2024T15:11:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T15:11:06 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-02-2024T15:11:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:11:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T15:11:09 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:11:50 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:11:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T15:11:51 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T15:11:51 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:12:04 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+
+28-02-2024T15:12:04 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:12:04 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:12:05 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:12:05 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '2000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:12:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '2000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:12:06 - [MESSAGE][PASSED] - Text '2000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:12:06 - [TEST_STEP][PASSED] - if (jangkaWaktu != ""): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:12:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), jangkaWaktu, true): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:12:16 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:12:16 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clickable
+
+28-02-2024T15:12:16 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - format = NumberFormat.getInstance(US): null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - a = Penghasilan: null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - b = Pengeluaran: null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - c = jangkaWaktu: null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - number_a = format.parse(a): null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - number_b = format.parse(b): null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - number_c = format.parse(c): null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - Rumus = number_a - number_b * number_c * 12 / 3: null
+
+28-02-2024T15:12:19 - [TEST_STEP][PASSED] - cekDataHitung = getText(findTestObject("OR_Perhitungan_Properti _BTN/HasilHitung")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 480.000.000'
+
+28-02-2024T15:12:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 480.000.000'
+
+28-02-2024T15:12:20 - [TEST_STEP][PASSED] - dataHitungNew = ", "").toString(): null
+
+28-02-2024T15:12:20 - [TEST_STEP][PASSED] - println("Hasil Rumus = " + Rumus): null
+
+28-02-2024T15:12:20 - [TEST_STEP][PASSED] - println("Hasil Web = " + dataHitungNew): null
+
+28-02-2024T15:12:20 - [TEST_STEP][PASSED] - if (dataHitungNew == Rumus): null
+
+28-02-2024T15:12:20 - [TEST_STEP][PASSED] - else if (dataHitungNew != Rumus): Not Valid
+
+28-02-2024T15:12:20 - [TEST_STEP][PASSED] - comment("Not Valid"): Not Valid
+
+28-02-2024T15:12:20 - [MESSAGE][INFO] - Not Valid
+
+28-02-2024T15:12:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T15:12:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_SimulasiPerhitunganPropertiBTN" time="50.42" classname="Test Cases/TC_SimulasiPerhitunganPropertiBTN" status="PASSED">
+         <system-out><![CDATA[28-02-2024T15:12:21 - [TEST_CASE][PASSED] - Test Cases/TC_SimulasiPerhitunganPropertiBTN: Test Cases/TC_SimulasiPerhitunganPropertiBTN
+
+28-02-2024T15:12:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T15:12:22 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-02-2024T15:12:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:12:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T15:12:23 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:12:56 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:12:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T15:12:56 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T15:12:56 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+
+28-02-2024T15:12:57 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '12000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '12000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:12:59 - [MESSAGE][PASSED] - Text '12000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:12:59 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '1500000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '1500000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:13:01 - [MESSAGE][PASSED] - Text '1500000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:13:01 - [TEST_STEP][PASSED] - if (jangkaWaktu != ""): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:13:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), jangkaWaktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:13:03 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:13:03 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clickable
+
+28-02-2024T15:13:04 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - format = NumberFormat.getInstance(US): null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - a = Penghasilan: null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - b = Pengeluaran: null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - c = jangkaWaktu: null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - number_a = format.parse(a): null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - number_b = format.parse(b): null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - number_c = format.parse(c): null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - Rumus = number_a - number_b * number_c * 12 / 3: null
+
+28-02-2024T15:13:07 - [TEST_STEP][PASSED] - cekDataHitung = getText(findTestObject("OR_Perhitungan_Properti _BTN/HasilHitung")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 420.000.000'
+
+28-02-2024T15:13:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 420.000.000'
+
+28-02-2024T15:13:11 - [TEST_STEP][PASSED] - dataHitungNew = ", "").toString(): null
+
+28-02-2024T15:13:11 - [TEST_STEP][PASSED] - println("Hasil Rumus = " + Rumus): null
+
+28-02-2024T15:13:11 - [TEST_STEP][PASSED] - println("Hasil Web = " + dataHitungNew): null
+
+28-02-2024T15:13:11 - [TEST_STEP][PASSED] - if (dataHitungNew == Rumus): null
+
+28-02-2024T15:13:11 - [TEST_STEP][PASSED] - else if (dataHitungNew != Rumus): Not Valid
+
+28-02-2024T15:13:11 - [TEST_STEP][PASSED] - comment("Not Valid"): Not Valid
+
+28-02-2024T15:13:11 - [MESSAGE][INFO] - Not Valid
+
+28-02-2024T15:13:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T15:13:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_SimulasiPerhitunganPropertiBTN" time="40.919" classname="Test Cases/TC_SimulasiPerhitunganPropertiBTN" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_SimulasiPerhitunganPropertiBTN FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)&#xa;	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[28-02-2024T15:13:12 - [TEST_CASE][FAILED] - Test Cases/TC_SimulasiPerhitunganPropertiBTN: Test Cases/TC_SimulasiPerhitunganPropertiBTN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+28-02-2024T15:13:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T15:13:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-02-2024T15:13:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:13:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T15:13:13 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:13:39 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:13:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T15:13:39 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T15:13:39 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:13:39 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+
+28-02-2024T15:13:39 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:13:41 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:13:41 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:13:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:13:42 - [MESSAGE][PASSED] - Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:13:42 - [TEST_STEP][PASSED] - if (jangkaWaktu != ""): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:13:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), jangkaWaktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:13:51 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:13:51 - [TEST_STEP][FAILED] - if (verifyElementClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+28-02-2024T15:13:53 - [MESSAGE][FAILED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240228_151050\\TS_HitungProperti\\20240228_151051\\1709108033167.png]]
+
+28-02-2024T15:13:53 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240228_151050\\TS_HitungProperti\\20240228_151051\\1709108033436.png]]]]></system-out>
+         <system-err><![CDATA[28-02-2024T15:13:12 - [TEST_CASE][FAILED] - Test Cases/TC_SimulasiPerhitunganPropertiBTN: Test Cases/TC_SimulasiPerhitunganPropertiBTN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_SimulasiPerhitunganPropertiBTN" time="57.139" classname="Test Cases/TC_SimulasiPerhitunganPropertiBTN" status="PASSED">
+         <system-out><![CDATA[28-02-2024T15:13:53 - [TEST_CASE][PASSED] - Test Cases/TC_SimulasiPerhitunganPropertiBTN: Test Cases/TC_SimulasiPerhitunganPropertiBTN
+
+28-02-2024T15:13:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T15:13:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2024T15:13:54 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-02-2024T15:13:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:13:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T15:13:55 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:14:40 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:14:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T15:14:40 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T15:14:40 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:14:40 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+
+28-02-2024T15:14:40 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:14:40 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:14:41 - [MESSAGE][PASSED] - Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:14:41 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '3000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '3000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:14:42 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:14:42 - [TEST_STEP][PASSED] - if (jangkaWaktu != ""): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:14:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), jangkaWaktu, true): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:14:44 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:14:44 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clickable
+
+28-02-2024T15:14:45 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - format = NumberFormat.getInstance(US): null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - a = Penghasilan: null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - b = Pengeluaran: null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - c = jangkaWaktu: null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - number_a = format.parse(a): null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - number_b = format.parse(b): null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - number_c = format.parse(c): null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - Rumus = number_a - number_b * number_c * 12 / 3: null
+
+28-02-2024T15:14:47 - [TEST_STEP][PASSED] - cekDataHitung = getText(findTestObject("OR_Perhitungan_Properti _BTN/HasilHitung")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 180.000.000'
+
+28-02-2024T15:14:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 180.000.000'
+
+28-02-2024T15:14:50 - [TEST_STEP][PASSED] - dataHitungNew = ", "").toString(): null
+
+28-02-2024T15:14:50 - [TEST_STEP][PASSED] - println("Hasil Rumus = " + Rumus): null
+
+28-02-2024T15:14:50 - [TEST_STEP][PASSED] - println("Hasil Web = " + dataHitungNew): null
+
+28-02-2024T15:14:50 - [TEST_STEP][PASSED] - if (dataHitungNew == Rumus): null
+
+28-02-2024T15:14:50 - [TEST_STEP][PASSED] - else if (dataHitungNew != Rumus): Not Valid
+
+28-02-2024T15:14:50 - [TEST_STEP][PASSED] - comment("Not Valid"): Not Valid
+
+28-02-2024T15:14:50 - [MESSAGE][INFO] - Not Valid
+
+28-02-2024T15:14:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T15:14:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_SimulasiPerhitunganPropertiBTN" time="65.598" classname="Test Cases/TC_SimulasiPerhitunganPropertiBTN" status="PASSED">
+         <system-out><![CDATA[28-02-2024T15:14:50 - [TEST_CASE][PASSED] - Test Cases/TC_SimulasiPerhitunganPropertiBTN: Test Cases/TC_SimulasiPerhitunganPropertiBTN
+
+28-02-2024T15:14:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T15:14:51 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-02-2024T15:14:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:14:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T15:14:52 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:15:43 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:15:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T15:15:43 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T15:15:43 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:15:43 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+
+28-02-2024T15:15:43 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '20000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:15:43 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '20000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:15:44 - [MESSAGE][PASSED] - Text '20000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:15:44 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:15:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:15:45 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:15:46 - [TEST_STEP][PASSED] - if (jangkaWaktu != ""): All options with value '8' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:15:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), jangkaWaktu, true): All options with value '8' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:15:47 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:15:47 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:15:52 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clickable
+
+28-02-2024T15:15:52 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - format = NumberFormat.getInstance(US): null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - a = Penghasilan: null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - b = Pengeluaran: null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - c = jangkaWaktu: null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - number_a = format.parse(a): null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - number_b = format.parse(b): null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - number_c = format.parse(c): null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - Rumus = number_a - number_b * number_c * 12 / 3: null
+
+28-02-2024T15:15:54 - [TEST_STEP][PASSED] - cekDataHitung = getText(findTestObject("OR_Perhitungan_Properti _BTN/HasilHitung")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 480.000.000'
+
+28-02-2024T15:15:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 480.000.000'
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - dataHitungNew = ", "").toString(): null
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - println("Hasil Rumus = " + Rumus): null
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - println("Hasil Web = " + dataHitungNew): null
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - if (dataHitungNew == Rumus): null
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - else if (dataHitungNew != Rumus): Not Valid
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - comment("Not Valid"): Not Valid
+
+28-02-2024T15:15:56 - [MESSAGE][INFO] - Not Valid
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T15:15:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_SimulasiPerhitunganPropertiBTN" time="40.835" classname="Test Cases/TC_SimulasiPerhitunganPropertiBTN" status="PASSED">
+         <system-out><![CDATA[28-02-2024T15:15:56 - [TEST_CASE][PASSED] - Test Cases/TC_SimulasiPerhitunganPropertiBTN: Test Cases/TC_SimulasiPerhitunganPropertiBTN
+
+28-02-2024T15:15:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T15:15:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+28-02-2024T15:15:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T15:15:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T15:15:57 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:16:28 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+28-02-2024T15:16:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T15:16:28 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T15:16:28 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+
+28-02-2024T15:16:28 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '15000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '15000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:16:29 - [MESSAGE][PASSED] - Text '15000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+28-02-2024T15:16:29 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '4000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '4000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:16:30 - [MESSAGE][PASSED] - Text '4000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+28-02-2024T15:16:30 - [TEST_STEP][PASSED] - if (jangkaWaktu != ""): All options with value '9' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:16:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), jangkaWaktu, true): All options with value '9' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:16:32 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+28-02-2024T15:16:32 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"))): null
+
+28-02-2024T15:16:33 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clickable
+
+28-02-2024T15:16:33 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - format = NumberFormat.getInstance(US): null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - a = Penghasilan: null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - b = Pengeluaran: null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - c = jangkaWaktu: null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - number_a = format.parse(a): null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - number_b = format.parse(b): null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - number_c = format.parse(c): null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - Rumus = number_a - number_b * number_c * 12 / 3: null
+
+28-02-2024T15:16:35 - [TEST_STEP][PASSED] - cekDataHitung = getText(findTestObject("OR_Perhitungan_Properti _BTN/HasilHitung")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 396.000.000'
+
+28-02-2024T15:16:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/HasilHitung' is: 'Rp 396.000.000'
+
+28-02-2024T15:16:37 - [TEST_STEP][PASSED] - dataHitungNew = ", "").toString(): null
+
+28-02-2024T15:16:37 - [TEST_STEP][PASSED] - println("Hasil Rumus = " + Rumus): null
+
+28-02-2024T15:16:37 - [TEST_STEP][PASSED] - println("Hasil Web = " + dataHitungNew): null
+
+28-02-2024T15:16:37 - [TEST_STEP][PASSED] - if (dataHitungNew == Rumus): null
+
+28-02-2024T15:16:37 - [TEST_STEP][PASSED] - else if (dataHitungNew != Rumus): Not Valid
+
+28-02-2024T15:16:37 - [TEST_STEP][PASSED] - comment("Not Valid"): Not Valid
+
+28-02-2024T15:16:37 - [MESSAGE][INFO] - Not Valid
+
+28-02-2024T15:16:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T15:16:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-02-2024T15:11:03 - [TEST_SUITE][FAILED] - TS_HitungProperti: Test Cases/TC_SimulasiPerhitunganPropertiBTN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[28-02-2024T15:11:03 - [TEST_SUITE][FAILED] - TS_HitungProperti: Test Cases/TC_SimulasiPerhitunganPropertiBTN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:605)
+	at TC_SimulasiPerhitunganPropertiBTN.run(TC_SimulasiPerhitunganPropertiBTN:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709107851009.run(TempTestSuite1709107851009.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

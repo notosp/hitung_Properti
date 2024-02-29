@@ -24,28 +24,28 @@ WebUI.navigateToUrl(GlobalVariable.UrlHitungProperti)
 
 WebUI.maximizeWindow()
 
-if (WebUI.verifyElementNotClickable(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/button_Hitung'))) {
+if (WebUI.verifyElementNotClickable(findTestObject('OR_Perhitungan_Properti _BTN/button_Hitung'))) {
     if (Penghasilan != '') {
-        WebUI.setText(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/input_Penghasilan'), Penghasilan)
+        WebUI.setText(findTestObject('OR_Perhitungan_Properti _BTN/input_Penghasilan'), Penghasilan)
     }
     
     if (Pengeluaran != '') {
-        WebUI.setText(findTestObject('Object Repository/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/input_Pengeluaran'), 
+        WebUI.setText(findTestObject('Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'), 
             Pengeluaran)
     } else if (Pengeluaran > Penghasilan) {
-        WebUI.verifyElementText(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/WarningMsg'), ExpecWarningMessage)
+        WebUI.verifyElementText(findTestObject('OR_Perhitungan_Properti _BTN/WarningMsg'), ExpecWarningMessage)
     }
     
     if (jangkaWaktu != '') {
-        WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/select_jangkaWaktu'), 
+        WebUI.selectOptionByValue(findTestObject('Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'), 
             jangkaWaktu, true)
     } else {
-        WebUI.click(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/button_Hitung'))
+        WebUI.click(findTestObject('OR_Perhitungan_Properti _BTN/button_Hitung'))
     }
 }
 
-if (WebUI.verifyElementClickable(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/button_Hitung'))) {
-    WebUI.click(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/button_Hitung'))
+if (WebUI.verifyElementClickable(findTestObject('OR_Perhitungan_Properti _BTN/button_Hitung'))) {
+    WebUI.click(findTestObject('OR_Perhitungan_Properti _BTN/button_Hitung'))
 }
 
 //=============================
@@ -65,17 +65,16 @@ number_c = format.parse(c)
 
 Rumus = ((((number_a - number_b) * number_c) * 12) / 3)
 
-cekDataHitung = WebUI.getText(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/HasilHitung'))
+cekDataHitung = WebUI.getText(findTestObject('OR_Perhitungan_Properti _BTN/HasilHitung'))
 
 dataHitungNew = cekDataHitung.replace('Rp ', '').replace('.', '').toString()
 
 //formatPerhitungan = Rumus.toString()
 println('Hasil Rumus = ' + Rumus)
-
 println('Hasil Web = ' + dataHitungNew)
 
 if (dataHitungNew == Rumus) {
-	WebUI.waitForElementVisible(findTestObject('Page_Hitung Harga Properti Maksimal  BTN Pr_37bba6/HasilHitung'), 0)
+	WebUI.waitForElementVisible(findTestObject('OR_Perhitungan_Properti _BTN/HasilHitung'), 0)
 	WebUI.comment('Valid')
 } else if (dataHitungNew != Rumus) {
 	WebUI.comment('Not Valid')

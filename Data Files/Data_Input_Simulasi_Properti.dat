@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Data Input Simulasi Hitung</name>
+   <name>Data_Input_Simulasi_Properti</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
