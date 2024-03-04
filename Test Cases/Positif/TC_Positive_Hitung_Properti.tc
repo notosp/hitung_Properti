@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Simulasi perhitungan properti</description>
+   <name>TC_Positive_Hitung_Properti</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98521f6d-9d43-4ab6-ab70-0bb2cfe391d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82980811-7b83-4f85-a711-97bd8bb08a3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a566569-86b3-41d8-bd3d-086a3f880d4d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b40d724e-2048-4222-9265-ebb0fc6d69e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10000000'</defaultValue>
+      <description></description>
+      <id>82980811-7b83-4f85-a711-97bd8bb08a3c</id>
+      <masked>false</masked>
+      <name>Penghasilan</name>
+   </variable>
+   <variable>
+      <defaultValue>'200000'</defaultValue>
+      <description></description>
+      <id>2a566569-86b3-41d8-bd3d-086a3f880d4d</id>
+      <masked>false</masked>
+      <name>Pengeluaran</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>b40d724e-2048-4222-9265-ebb0fc6d69e6</id>
+      <masked>false</masked>
+      <name>Jangka_Waktu</name>
+   </variable>
+</TestCaseEntity>

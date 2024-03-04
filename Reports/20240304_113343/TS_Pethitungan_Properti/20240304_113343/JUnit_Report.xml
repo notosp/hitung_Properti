@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Pethitungan_Properti" time="126.864" tests="7" failures="3" errors="0">
+   <testsuite name="TS_Pethitungan_Properti" tests="7" failures="3" errors="0" time="126.864" skipped="0" timestamp="04-03-2024T11:33:48" hostname="Noto - WIN-S1NJ55NAC8V" id="Test Suites/TS_Pethitungan_Properti">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343"/>
+         <property name="logFiles" value="D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\execution0.log"/>
+         <property name="attachments" value="D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526844762.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526846695.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526849602.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526856253.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526858918.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526869327.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526870832.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526872280.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526874107.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526876226.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526886072.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526887512.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526888874.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526891244.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526893877.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526906622.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526908204.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526908648.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526910600.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526912015.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526921147.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526921524.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526923206.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526925063.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526926445.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526936922.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526937302.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526937682.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526939081.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526947431.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526948915.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526950276.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526952710.png, D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526955166.png"/>
+         <property name="hostName" value="Noto - WIN-S1NJ55NAC8V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="10.10.33.112"/>
+         <property name="sessionId" value="031784aaacf1b88feee644f04f33a969"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Positif/TC_Positive_Hitung_Properti" time="30.298" classname="Test Cases/Positif/TC_Positive_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[04-03-2024T11:33:49 - [TEST_CASE][PASSED] - Test Cases/Positif/TC_Positive_Hitung_Properti: Test Cases/Positif/TC_Positive_Hitung_Properti
+
+04-03-2024T11:33:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T11:33:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-03-2024T11:33:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T11:33:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T11:33:52 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:34:02 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:34:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T11:34:02 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T11:34:02 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:02 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:04 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526844762.png]]
+
+04-03-2024T11:34:04 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:06 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526846695.png]]
+
+04-03-2024T11:34:06 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:34:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:34:09 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:34:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526849602.png]]
+
+04-03-2024T11:34:09 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+04-03-2024T11:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+04-03-2024T11:34:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526856253.png]]
+
+04-03-2024T11:34:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal"), 0): Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+04-03-2024T11:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-03-2024T11:34:17 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - nilai_Penghasilan = Double.parseDouble(Penghasilan): null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - nilai_Pengeluaran = Double.parseDouble(Pengeluaran): null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - number_only_JW = Jangka_Waktu.replaceAll("[^0-9]", ""): null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - angka_JW = Integer.parseInt(number_only_JW): null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran: null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - nilai_Hasil_Jangka_Waktu = 12 * angka_JW: null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3: null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - Hasil_hitung_rekomen_harga = String.format("%.0f", nilai_perhitungan_properti): null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - println(Hasil_hitung_rekomen_harga): null
+
+04-03-2024T11:34:17 - [TEST_STEP][PASSED] - Nilail_Rekomen_hitung_properti = getText(findTestObject("OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 300.000.000'
+
+04-03-2024T11:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 300.000.000'
+
+04-03-2024T11:34:18 - [TEST_STEP][PASSED] - get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll("[^0-9]", ""): null
+
+04-03-2024T11:34:18 - [TEST_STEP][PASSED] - println(get_hasil_RekomHarga): null
+
+04-03-2024T11:34:18 - [TEST_STEP][PASSED] - verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga): Actual object '300000000' and expected object '300000000' are equal
+
+04-03-2024T11:34:18 - [MESSAGE][PASSED] - Actual object '300000000' and expected object '300000000' are equal
+
+04-03-2024T11:34:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526858918.png]]
+
+04-03-2024T11:34:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-03-2024T11:34:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/TC1_Negative_Hitung_Properti" time="17.021" classname="Test Cases/Negative/TC1_Negative_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[04-03-2024T11:34:19 - [TEST_CASE][PASSED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti
+
+04-03-2024T11:34:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T11:34:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-03-2024T11:34:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T11:34:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T11:34:21 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:34:28 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:34:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T11:34:29 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T11:34:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526869327.png]]
+
+04-03-2024T11:34:29 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:29 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:30 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526870832.png]]
+
+04-03-2024T11:34:30 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '12000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '12000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:31 - [MESSAGE][PASSED] - Text '12000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526872280.png]]
+
+04-03-2024T11:34:32 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): Taking screenshot successfully
+
+04-03-2024T11:34:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:34:33 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:34:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526874107.png]]
+
+04-03-2024T11:34:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OR_Perhitungan_Properti _BTN/Title_page"), 2): Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:34:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:34:34 - [TEST_STEP][PASSED] - verifyTextPresent("Isi kurang dari nilai sebelumnya", false): Text 'Isi kurang dari nilai sebelumnya' is present on page 
+
+04-03-2024T11:34:35 - [MESSAGE][PASSED] - Text 'Isi kurang dari nilai sebelumnya' is present on page 
+
+04-03-2024T11:34:35 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"), "disabled", 5): Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' has attribute 'disabled'
+
+04-03-2024T11:34:35 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' has attribute 'disabled'
+
+04-03-2024T11:34:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526876226.png]]
+
+04-03-2024T11:34:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-03-2024T11:34:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/TC1_Negative_Hitung_Properti" time="17.537" classname="Test Cases/Negative/TC1_Negative_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[04-03-2024T11:34:36 - [TEST_CASE][PASSED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti
+
+04-03-2024T11:34:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T11:34:36 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-03-2024T11:34:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T11:34:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T11:34:38 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:34:45 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:34:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T11:34:45 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T11:34:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526886072.png]]
+
+04-03-2024T11:34:46 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:47 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:34:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526887512.png]]
+
+04-03-2024T11:34:47 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:48 - [MESSAGE][PASSED] - Text '6000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:34:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526888874.png]]
+
+04-03-2024T11:34:48 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): Taking screenshot successfully
+
+04-03-2024T11:34:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:34:50 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:34:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526891244.png]]
+
+04-03-2024T11:34:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OR_Perhitungan_Properti _BTN/Title_page"), 2): Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:34:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:34:51 - [TEST_STEP][PASSED] - verifyTextPresent("Isi kurang dari nilai sebelumnya", false): Text 'Isi kurang dari nilai sebelumnya' is present on page 
+
+04-03-2024T11:34:53 - [MESSAGE][PASSED] - Text 'Isi kurang dari nilai sebelumnya' is present on page 
+
+04-03-2024T11:34:53 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"), "disabled", 5): Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' has attribute 'disabled'
+
+04-03-2024T11:34:53 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' has attribute 'disabled'
+
+04-03-2024T11:34:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:34:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526893877.png]]
+
+04-03-2024T11:34:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-03-2024T11:34:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/TC1_Negative_Hitung_Properti" time="17.618" classname="Test Cases/Negative/TC1_Negative_Hitung_Properti" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[04-03-2024T11:34:54 - [TEST_CASE][FAILED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+04-03-2024T11:34:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T11:34:54 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-03-2024T11:34:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T11:34:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T11:34:55 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:06 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T11:35:06 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T11:35:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526906622.png]]
+
+04-03-2024T11:35:06 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:35:06 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:35:07 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:35:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526908204.png]]
+
+04-03-2024T11:35:08 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): null
+
+04-03-2024T11:35:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526908648.png]]
+
+04-03-2024T11:35:08 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): Taking screenshot successfully
+
+04-03-2024T11:35:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:35:10 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:35:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526910600.png]]
+
+04-03-2024T11:35:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OR_Perhitungan_Properti _BTN/Title_page"), 2): Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:11 - [TEST_STEP][FAILED] - verifyTextPresent("Isi kurang dari nilai sebelumnya", false): Unable to verify text 'Isi kurang dari nilai sebelumnya' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-03-2024T11:35:12 - [MESSAGE][FAILED] - Text 'Isi kurang dari nilai sebelumnya' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+04-03-2024T11:35:12 - [MESSAGE][FAILED] - Unable to verify text 'Isi kurang dari nilai sebelumnya' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526912015.png]]]]></system-out>
+         <system-err><![CDATA[04-03-2024T11:34:54 - [TEST_CASE][FAILED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/TC1_Negative_Hitung_Properti" time="14.379" classname="Test Cases/Negative/TC1_Negative_Hitung_Properti" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[04-03-2024T11:35:12 - [TEST_CASE][FAILED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+04-03-2024T11:35:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T11:35:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-03-2024T11:35:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-03-2024T11:35:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T11:35:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T11:35:13 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:20 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T11:35:20 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T11:35:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526921147.png]]
+
+04-03-2024T11:35:21 - [TEST_STEP][PASSED] - if (Penghasilan != ""): null
+
+04-03-2024T11:35:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526921524.png]]
+
+04-03-2024T11:35:21 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:35:22 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:35:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526923206.png]]
+
+04-03-2024T11:35:23 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): Taking screenshot successfully
+
+04-03-2024T11:35:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:35:24 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:35:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526925063.png]]
+
+04-03-2024T11:35:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OR_Perhitungan_Properti _BTN/Title_page"), 2): Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:25 - [TEST_STEP][FAILED] - verifyTextPresent("Isi kurang dari nilai sebelumnya", false): Unable to verify text 'Isi kurang dari nilai sebelumnya' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-03-2024T11:35:26 - [MESSAGE][FAILED] - Text 'Isi kurang dari nilai sebelumnya' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+04-03-2024T11:35:26 - [MESSAGE][FAILED] - Unable to verify text 'Isi kurang dari nilai sebelumnya' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526926445.png]]]]></system-out>
+         <system-err><![CDATA[04-03-2024T11:35:12 - [TEST_CASE][FAILED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/TC1_Negative_Hitung_Properti" time="12.555" classname="Test Cases/Negative/TC1_Negative_Hitung_Properti" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[04-03-2024T11:35:26 - [TEST_CASE][FAILED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+04-03-2024T11:35:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T11:35:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-03-2024T11:35:27 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-03-2024T11:35:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T11:35:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T11:35:28 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:36 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T11:35:36 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T11:35:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526936922.png]]
+
+04-03-2024T11:35:37 - [TEST_STEP][PASSED] - if (Penghasilan != ""): null
+
+04-03-2024T11:35:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526937302.png]]
+
+04-03-2024T11:35:37 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): null
+
+04-03-2024T11:35:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526937682.png]]
+
+04-03-2024T11:35:37 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): null
+
+04-03-2024T11:35:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OR_Perhitungan_Properti _BTN/Title_page"), 2): Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:38 - [TEST_STEP][FAILED] - verifyTextPresent("Isi kurang dari nilai sebelumnya", false): Unable to verify text 'Isi kurang dari nilai sebelumnya' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+04-03-2024T11:35:39 - [MESSAGE][FAILED] - Text 'Isi kurang dari nilai sebelumnya' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+04-03-2024T11:35:39 - [MESSAGE][FAILED] - Unable to verify text 'Isi kurang dari nilai sebelumnya' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526939081.png]]]]></system-out>
+         <system-err><![CDATA[04-03-2024T11:35:26 - [TEST_CASE][FAILED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/TC1_Negative_Hitung_Properti" time="16.338" classname="Test Cases/Negative/TC1_Negative_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[04-03-2024T11:35:39 - [TEST_CASE][PASSED] - Test Cases/Negative/TC1_Negative_Hitung_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti
+
+04-03-2024T11:35:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T11:35:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-03-2024T11:35:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+04-03-2024T11:35:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T11:35:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T11:35:40 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:47 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+04-03-2024T11:35:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T11:35:47 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T11:35:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526947431.png]]
+
+04-03-2024T11:35:47 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:35:48 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+04-03-2024T11:35:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526948915.png]]
+
+04-03-2024T11:35:49 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:35:49 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+04-03-2024T11:35:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526950276.png]]
+
+04-03-2024T11:35:50 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): Taking screenshot successfully
+
+04-03-2024T11:35:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:35:52 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+04-03-2024T11:35:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526952710.png]]
+
+04-03-2024T11:35:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OR_Perhitungan_Properti _BTN/Title_page"), 2): Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_page' successfully
+
+04-03-2024T11:35:53 - [TEST_STEP][PASSED] - verifyTextPresent("Isi kurang dari nilai sebelumnya", false): Text 'Isi kurang dari nilai sebelumnya' is present on page 
+
+04-03-2024T11:35:54 - [MESSAGE][PASSED] - Text 'Isi kurang dari nilai sebelumnya' is present on page 
+
+04-03-2024T11:35:54 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung"), "disabled", 5): Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' has attribute 'disabled'
+
+04-03-2024T11:35:54 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' has attribute 'disabled'
+
+04-03-2024T11:35:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+04-03-2024T11:35:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240304_113343\\TS_Pethitungan_Properti\\20240304_113343\\1709526955166.png]]
+
+04-03-2024T11:35:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-03-2024T11:35:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-03-2024T11:33:48 - [TEST_SUITE][FAILED] - TS_Pethitungan_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[04-03-2024T11:33:48 - [TEST_SUITE][FAILED] - TS_Pethitungan_Properti: Test Cases/Negative/TC1_Negative_Hitung_Properti FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Isi kurang dari nilai sebelumnya' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at TC1_Negative_Hitung_Properti.run(TC1_Negative_Hitung_Properti:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709526823025.run(TempTestSuite1709526823025.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Isi kurang dari nilai sebelumnya' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

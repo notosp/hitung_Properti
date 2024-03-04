@@ -1,0 +1,176 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_TC1_Positive_Rekomendasi_harga,Edge Chromium 122,,,01-03-2024 18:19:04,01-03-2024 18:20:51,1m - 46.595s,PASSED
+,,,,,,,
+Test Cases/Positif/TC_Positive_Hitung_Properti,Edge Chromium 122,Simulasi perhitungan properti,,01-03-2024 18:19:04,01-03-2024 18:19:25,20.358s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,01-03-2024 18:19:05,01-03-2024 18:19:10,4.551s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,01-03-2024 18:19:10,01-03-2024 18:19:11,1.826s,PASSED
+maximizeWindow(),Edge Chromium 122,,,01-03-2024 18:19:11,01-03-2024 18:19:12,0.483s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,01-03-2024 18:19:12,01-03-2024 18:19:15,2.942s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:15,01-03-2024 18:19:15,0.500s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,01-03-2024 18:19:15,01-03-2024 18:19:16,0.859s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:16,01-03-2024 18:19:17,0.533s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,01-03-2024 18:19:17,01-03-2024 18:19:19,2.214s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:19,01-03-2024 18:19:19,0.433s,PASSED
+"click(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""))",Edge Chromium 122,,,01-03-2024 18:19:19,01-03-2024 18:19:22,2.707s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:22,01-03-2024 18:19:23,0.840s,PASSED
+"verifyElementPresent(findTestObject(""OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal""), 0)",Edge Chromium 122,Vaerifikasi Hasil berasil menampilkan rekomendasi harga yang sesuai dengan perhitungan formula,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.335s,PASSED
+nilai_Penghasilan = Double.parseDouble(Penghasilan),Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.012s,PASSED
+nilai_Pengeluaran = Double.parseDouble(Pengeluaran),Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.003s,PASSED
+"number_only_JW = Jangka_Waktu.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.013s,PASSED
+angka_JW = Integer.parseInt(number_only_JW),Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.006s,PASSED
+nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran,Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.013s,PASSED
+nilai_Hasil_Jangka_Waktu = 12 * angka_JW,Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.015s,PASSED
+nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3,Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.020s,PASSED
+"Hasil_hitung_rekomen_harga = String.format(""%.0f"", nilai_perhitungan_properti)",Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.007s,PASSED
+println(Hasil_hitung_rekomen_harga),Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:23,0.007s,PASSED
+"Nilail_Rekomen_hitung_properti = getText(findTestObject(""OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga""))",Edge Chromium 122,,,01-03-2024 18:19:23,01-03-2024 18:19:24,0.559s,PASSED
+"get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:19:24,01-03-2024 18:19:24,0.004s,PASSED
+println(get_hasil_RekomHarga),Edge Chromium 122,,,01-03-2024 18:19:24,01-03-2024 18:19:24,0.003s,PASSED
+"verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga)",Edge Chromium 122,,,01-03-2024 18:19:24,01-03-2024 18:19:24,0.042s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:24,01-03-2024 18:19:24,0.381s,PASSED
+closeBrowser(),Edge Chromium 122,,,01-03-2024 18:19:24,01-03-2024 18:19:25,0.323s,PASSED
+,,,,,,,
+Test Cases/Positif/TC_Positive_Hitung_Properti,Edge Chromium 122,Simulasi perhitungan properti,,01-03-2024 18:19:25,01-03-2024 18:19:43,17.816s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,01-03-2024 18:19:25,01-03-2024 18:19:28,2.885s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,01-03-2024 18:19:28,01-03-2024 18:19:29,1.510s,PASSED
+maximizeWindow(),Edge Chromium 122,,,01-03-2024 18:19:29,01-03-2024 18:19:30,0.663s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,01-03-2024 18:19:30,01-03-2024 18:19:32,2.306s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:32,01-03-2024 18:19:33,0.519s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,01-03-2024 18:19:33,01-03-2024 18:19:35,1.893s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:35,01-03-2024 18:19:36,0.913s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,01-03-2024 18:19:36,01-03-2024 18:19:37,1.788s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:37,01-03-2024 18:19:38,0.422s,PASSED
+"click(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""))",Edge Chromium 122,,,01-03-2024 18:19:38,01-03-2024 18:19:40,2.499s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:40,01-03-2024 18:19:41,0.823s,PASSED
+"verifyElementPresent(findTestObject(""OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal""), 0)",Edge Chromium 122,Vaerifikasi Hasil berasil menampilkan rekomendasi harga yang sesuai dengan perhitungan formula,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.298s,PASSED
+nilai_Penghasilan = Double.parseDouble(Penghasilan),Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.001s,PASSED
+nilai_Pengeluaran = Double.parseDouble(Pengeluaran),Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.000s,PASSED
+"number_only_JW = Jangka_Waktu.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.001s,PASSED
+angka_JW = Integer.parseInt(number_only_JW),Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.001s,PASSED
+nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran,Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.000s,PASSED
+nilai_Hasil_Jangka_Waktu = 12 * angka_JW,Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.000s,PASSED
+nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3,Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.000s,PASSED
+"Hasil_hitung_rekomen_harga = String.format(""%.0f"", nilai_perhitungan_properti)",Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.000s,PASSED
+println(Hasil_hitung_rekomen_harga),Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:41,0.001s,PASSED
+"Nilail_Rekomen_hitung_properti = getText(findTestObject(""OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga""))",Edge Chromium 122,,,01-03-2024 18:19:41,01-03-2024 18:19:42,0.381s,PASSED
+"get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:19:42,01-03-2024 18:19:42,0.000s,PASSED
+println(get_hasil_RekomHarga),Edge Chromium 122,,,01-03-2024 18:19:42,01-03-2024 18:19:42,0.002s,PASSED
+"verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga)",Edge Chromium 122,,,01-03-2024 18:19:42,01-03-2024 18:19:42,0.005s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:42,01-03-2024 18:19:42,0.375s,PASSED
+closeBrowser(),Edge Chromium 122,,,01-03-2024 18:19:42,01-03-2024 18:19:43,0.386s,PASSED
+,,,,,,,
+Test Cases/Positif/TC_Positive_Hitung_Properti,Edge Chromium 122,Simulasi perhitungan properti,,01-03-2024 18:19:43,01-03-2024 18:20:00,17.273s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,01-03-2024 18:19:43,01-03-2024 18:19:46,2.874s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,01-03-2024 18:19:46,01-03-2024 18:19:48,2.116s,PASSED
+maximizeWindow(),Edge Chromium 122,,,01-03-2024 18:19:48,01-03-2024 18:19:48,0.149s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,01-03-2024 18:19:48,01-03-2024 18:19:50,2.544s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:50,01-03-2024 18:19:51,0.513s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,01-03-2024 18:19:51,01-03-2024 18:19:52,0.803s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:52,01-03-2024 18:19:52,0.526s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,01-03-2024 18:19:52,01-03-2024 18:19:54,1.827s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:54,01-03-2024 18:19:54,0.447s,PASSED
+"click(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""))",Edge Chromium 122,,,01-03-2024 18:19:54,01-03-2024 18:19:57,2.541s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:57,01-03-2024 18:19:59,1.483s,PASSED
+"verifyElementPresent(findTestObject(""OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal""), 0)",Edge Chromium 122,Vaerifikasi Hasil berasil menampilkan rekomendasi harga yang sesuai dengan perhitungan formula,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.308s,PASSED
+nilai_Penghasilan = Double.parseDouble(Penghasilan),Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.001s,PASSED
+nilai_Pengeluaran = Double.parseDouble(Pengeluaran),Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.001s,PASSED
+"number_only_JW = Jangka_Waktu.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.001s,PASSED
+angka_JW = Integer.parseInt(number_only_JW),Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.000s,PASSED
+nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran,Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.000s,PASSED
+nilai_Hasil_Jangka_Waktu = 12 * angka_JW,Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.000s,PASSED
+nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3,Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.000s,PASSED
+"Hasil_hitung_rekomen_harga = String.format(""%.0f"", nilai_perhitungan_properti)",Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.000s,PASSED
+println(Hasil_hitung_rekomen_harga),Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.001s,PASSED
+"Nilail_Rekomen_hitung_properti = getText(findTestObject(""OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga""))",Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.379s,PASSED
+"get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.001s,PASSED
+println(get_hasil_RekomHarga),Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.000s,PASSED
+"verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga)",Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:19:59,0.002s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:19:59,01-03-2024 18:20:00,0.384s,PASSED
+closeBrowser(),Edge Chromium 122,,,01-03-2024 18:20:00,01-03-2024 18:20:00,0.322s,PASSED
+,,,,,,,
+Test Cases/Positif/TC_Positive_Hitung_Properti,Edge Chromium 122,Simulasi perhitungan properti,,01-03-2024 18:20:00,01-03-2024 18:20:16,16.060s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,01-03-2024 18:20:00,01-03-2024 18:20:03,2.696s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,01-03-2024 18:20:03,01-03-2024 18:20:04,1.381s,PASSED
+maximizeWindow(),Edge Chromium 122,,,01-03-2024 18:20:04,01-03-2024 18:20:04,0.369s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,01-03-2024 18:20:04,01-03-2024 18:20:08,3.146s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:08,01-03-2024 18:20:08,0.582s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,01-03-2024 18:20:08,01-03-2024 18:20:09,0.789s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:09,01-03-2024 18:20:09,0.486s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,01-03-2024 18:20:09,01-03-2024 18:20:11,1.401s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:11,01-03-2024 18:20:11,0.393s,PASSED
+"click(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""))",Edge Chromium 122,,,01-03-2024 18:20:11,01-03-2024 18:20:14,2.445s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:14,01-03-2024 18:20:15,0.803s,PASSED
+"verifyElementPresent(findTestObject(""OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal""), 0)",Edge Chromium 122,Vaerifikasi Hasil berasil menampilkan rekomendasi harga yang sesuai dengan perhitungan formula,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.301s,PASSED
+nilai_Penghasilan = Double.parseDouble(Penghasilan),Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.001s,PASSED
+nilai_Pengeluaran = Double.parseDouble(Pengeluaran),Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.000s,PASSED
+"number_only_JW = Jangka_Waktu.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.001s,PASSED
+angka_JW = Integer.parseInt(number_only_JW),Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.001s,PASSED
+nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran,Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.000s,PASSED
+nilai_Hasil_Jangka_Waktu = 12 * angka_JW,Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.000s,PASSED
+nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3,Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.001s,PASSED
+"Hasil_hitung_rekomen_harga = String.format(""%.0f"", nilai_perhitungan_properti)",Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.000s,PASSED
+println(Hasil_hitung_rekomen_harga),Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.000s,PASSED
+"Nilail_Rekomen_hitung_properti = getText(findTestObject(""OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga""))",Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.360s,PASSED
+"get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.001s,PASSED
+println(get_hasil_RekomHarga),Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.000s,PASSED
+"verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga)",Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:15,0.001s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:15,01-03-2024 18:20:16,0.376s,PASSED
+closeBrowser(),Edge Chromium 122,,,01-03-2024 18:20:16,01-03-2024 18:20:16,0.417s,PASSED
+,,,,,,,
+Test Cases/Positif/TC_Positive_Hitung_Properti,Edge Chromium 122,Simulasi perhitungan properti,,01-03-2024 18:20:16,01-03-2024 18:20:33,17.455s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,01-03-2024 18:20:16,01-03-2024 18:20:19,3.297s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,01-03-2024 18:20:19,01-03-2024 18:20:22,2.928s,PASSED
+maximizeWindow(),Edge Chromium 122,,,01-03-2024 18:20:22,01-03-2024 18:20:23,0.147s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,01-03-2024 18:20:23,01-03-2024 18:20:25,2.087s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:25,01-03-2024 18:20:25,0.514s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,01-03-2024 18:20:25,01-03-2024 18:20:26,1.291s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:26,01-03-2024 18:20:27,0.475s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,01-03-2024 18:20:27,01-03-2024 18:20:28,1.436s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:28,01-03-2024 18:20:29,0.382s,PASSED
+"click(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""))",Edge Chromium 122,,,01-03-2024 18:20:29,01-03-2024 18:20:31,2.457s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:31,01-03-2024 18:20:32,0.813s,PASSED
+"verifyElementPresent(findTestObject(""OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal""), 0)",Edge Chromium 122,Vaerifikasi Hasil berasil menampilkan rekomendasi harga yang sesuai dengan perhitungan formula,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.299s,PASSED
+nilai_Penghasilan = Double.parseDouble(Penghasilan),Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.000s,PASSED
+nilai_Pengeluaran = Double.parseDouble(Pengeluaran),Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.000s,PASSED
+"number_only_JW = Jangka_Waktu.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.001s,PASSED
+angka_JW = Integer.parseInt(number_only_JW),Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.001s,PASSED
+nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran,Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.000s,PASSED
+nilai_Hasil_Jangka_Waktu = 12 * angka_JW,Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.000s,PASSED
+nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3,Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.001s,PASSED
+"Hasil_hitung_rekomen_harga = String.format(""%.0f"", nilai_perhitungan_properti)",Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.001s,PASSED
+println(Hasil_hitung_rekomen_harga),Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:32,0.001s,PASSED
+"Nilail_Rekomen_hitung_properti = getText(findTestObject(""OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga""))",Edge Chromium 122,,,01-03-2024 18:20:32,01-03-2024 18:20:33,0.436s,PASSED
+"get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:20:33,01-03-2024 18:20:33,0.000s,PASSED
+println(get_hasil_RekomHarga),Edge Chromium 122,,,01-03-2024 18:20:33,01-03-2024 18:20:33,0.001s,PASSED
+"verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga)",Edge Chromium 122,,,01-03-2024 18:20:33,01-03-2024 18:20:33,0.001s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:33,01-03-2024 18:20:33,0.377s,PASSED
+closeBrowser(),Edge Chromium 122,,,01-03-2024 18:20:33,01-03-2024 18:20:33,0.330s,PASSED
+,,,,,,,
+Test Cases/Positif/TC_Positive_Hitung_Properti,Edge Chromium 122,Simulasi perhitungan properti,,01-03-2024 18:20:33,01-03-2024 18:20:51,17.118s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,01-03-2024 18:20:34,01-03-2024 18:20:36,2.669s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,01-03-2024 18:20:36,01-03-2024 18:20:38,2.051s,PASSED
+maximizeWindow(),Edge Chromium 122,,,01-03-2024 18:20:38,01-03-2024 18:20:39,0.145s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,01-03-2024 18:20:39,01-03-2024 18:20:41,2.490s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:41,01-03-2024 18:20:42,0.541s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,01-03-2024 18:20:42,01-03-2024 18:20:42,0.832s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:42,01-03-2024 18:20:43,1.023s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,01-03-2024 18:20:43,01-03-2024 18:20:45,1.566s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:45,01-03-2024 18:20:45,0.423s,PASSED
+"click(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""))",Edge Chromium 122,,,01-03-2024 18:20:45,01-03-2024 18:20:48,2.486s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:48,01-03-2024 18:20:49,0.866s,PASSED
+"verifyElementPresent(findTestObject(""OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal""), 0)",Edge Chromium 122,Vaerifikasi Hasil berasil menampilkan rekomendasi harga yang sesuai dengan perhitungan formula,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.357s,PASSED
+nilai_Penghasilan = Double.parseDouble(Penghasilan),Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.000s,PASSED
+nilai_Pengeluaran = Double.parseDouble(Pengeluaran),Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.001s,PASSED
+"number_only_JW = Jangka_Waktu.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.001s,PASSED
+angka_JW = Integer.parseInt(number_only_JW),Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.001s,PASSED
+nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran,Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.000s,PASSED
+nilai_Hasil_Jangka_Waktu = 12 * angka_JW,Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.001s,PASSED
+nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3,Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.001s,PASSED
+"Hasil_hitung_rekomen_harga = String.format(""%.0f"", nilai_perhitungan_properti)",Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.001s,PASSED
+println(Hasil_hitung_rekomen_harga),Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:49,0.001s,PASSED
+"Nilail_Rekomen_hitung_properti = getText(findTestObject(""OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga""))",Edge Chromium 122,,,01-03-2024 18:20:49,01-03-2024 18:20:50,0.408s,PASSED
+"get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,01-03-2024 18:20:50,01-03-2024 18:20:50,0.001s,PASSED
+println(get_hasil_RekomHarga),Edge Chromium 122,,,01-03-2024 18:20:50,01-03-2024 18:20:50,0.000s,PASSED
+"verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga)",Edge Chromium 122,,,01-03-2024 18:20:50,01-03-2024 18:20:50,0.002s,PASSED
+takeScreenshot(),Edge Chromium 122,,,01-03-2024 18:20:50,01-03-2024 18:20:50,0.444s,PASSED
+closeBrowser(),Edge Chromium 122,,,01-03-2024 18:20:50,01-03-2024 18:20:51,0.601s,PASSED

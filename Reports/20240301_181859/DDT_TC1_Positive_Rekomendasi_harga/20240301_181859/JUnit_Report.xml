@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT_TC1_Positive_Rekomendasi_harga" time="106.595" tests="6" failures="0" errors="0">
+   <testsuite name="DDT_TC1_Positive_Rekomendasi_harga" tests="6" failures="0" errors="0" time="106.595" skipped="0" timestamp="01-03-2024T18:19:04" hostname="Noto - WIN-S1NJ55NAC8V" id="Test Suites/DDT_TC1_Positive_Rekomendasi_harga">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859"/>
+         <property name="logFiles" value="D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\execution0.log"/>
+         <property name="attachments" value="D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291955693.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291957093.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291959751.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291963312.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291964745.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291973173.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291975969.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291978174.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291981522.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291982593.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291991254.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291992574.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291994817.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291998904.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291999987.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292008507.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292009874.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292011650.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292014926.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292015958.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292025505.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292027223.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292029106.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292032382.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292033511.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292041904.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292043642.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292045753.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292049103.png, D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292050305.png"/>
+         <property name="hostName" value="Noto - WIN-S1NJ55NAC8V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.18.44"/>
+         <property name="sessionId" value="32ee0a785a7a34cc75cc693bbe7d228c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Positif/TC_Positive_Hitung_Properti" time="20.358" classname="Test Cases/Positif/TC_Positive_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[01-03-2024T18:19:04 - [TEST_CASE][PASSED] - Test Cases/Positif/TC_Positive_Hitung_Properti: Test Cases/Positif/TC_Positive_Hitung_Properti
+
+01-03-2024T18:19:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T18:19:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+01-03-2024T18:19:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T18:19:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T18:19:10 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:19:11 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:19:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-03-2024T18:19:12 - [MESSAGE][PASSED] - Current window maximized
+
+01-03-2024T18:19:12 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '27000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '27000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:15 - [MESSAGE][PASSED] - Text '27000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291955693.png]]
+
+01-03-2024T18:19:15 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:16 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291957093.png]]
+
+01-03-2024T18:19:17 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:19 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291959751.png]]
+
+01-03-2024T18:19:19 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:19:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291963312.png]]
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal"), 0): Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T18:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - nilai_Penghasilan = Double.parseDouble(Penghasilan): null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - nilai_Pengeluaran = Double.parseDouble(Pengeluaran): null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - number_only_JW = Jangka_Waktu.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - angka_JW = Integer.parseInt(number_only_JW): null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran: null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - nilai_Hasil_Jangka_Waktu = 12 * angka_JW: null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3: null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - Hasil_hitung_rekomen_harga = String.format("%.0f", nilai_perhitungan_properti): null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - println(Hasil_hitung_rekomen_harga): null
+
+01-03-2024T18:19:23 - [TEST_STEP][PASSED] - Nilail_Rekomen_hitung_properti = getText(findTestObject("OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 680.000.000'
+
+01-03-2024T18:19:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 680.000.000'
+
+01-03-2024T18:19:24 - [TEST_STEP][PASSED] - get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:19:24 - [TEST_STEP][PASSED] - println(get_hasil_RekomHarga): null
+
+01-03-2024T18:19:24 - [TEST_STEP][PASSED] - verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga): Actual object '680000000' and expected object '680000000' are equal
+
+01-03-2024T18:19:24 - [MESSAGE][PASSED] - Actual object '680000000' and expected object '680000000' are equal
+
+01-03-2024T18:19:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291964745.png]]
+
+01-03-2024T18:19:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-03-2024T18:19:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positif/TC_Positive_Hitung_Properti" time="17.816" classname="Test Cases/Positif/TC_Positive_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[01-03-2024T18:19:25 - [TEST_CASE][PASSED] - Test Cases/Positif/TC_Positive_Hitung_Properti: Test Cases/Positif/TC_Positive_Hitung_Properti
+
+01-03-2024T18:19:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T18:19:25 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+01-03-2024T18:19:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T18:19:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T18:19:28 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:19:29 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:19:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-03-2024T18:19:30 - [MESSAGE][PASSED] - Current window maximized
+
+01-03-2024T18:19:30 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:30 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:32 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291973173.png]]
+
+01-03-2024T18:19:33 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:35 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291975969.png]]
+
+01-03-2024T18:19:36 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:37 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291978174.png]]
+
+01-03-2024T18:19:38 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:19:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291981522.png]]
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal"), 0): Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:19:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T18:19:41 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - nilai_Penghasilan = Double.parseDouble(Penghasilan): null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - nilai_Pengeluaran = Double.parseDouble(Pengeluaran): null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - number_only_JW = Jangka_Waktu.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - angka_JW = Integer.parseInt(number_only_JW): null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran: null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - nilai_Hasil_Jangka_Waktu = 12 * angka_JW: null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3: null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - Hasil_hitung_rekomen_harga = String.format("%.0f", nilai_perhitungan_properti): null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - println(Hasil_hitung_rekomen_harga): null
+
+01-03-2024T18:19:41 - [TEST_STEP][PASSED] - Nilail_Rekomen_hitung_properti = getText(findTestObject("OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 300.000.000'
+
+01-03-2024T18:19:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 300.000.000'
+
+01-03-2024T18:19:42 - [TEST_STEP][PASSED] - get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:19:42 - [TEST_STEP][PASSED] - println(get_hasil_RekomHarga): null
+
+01-03-2024T18:19:42 - [TEST_STEP][PASSED] - verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga): Actual object '300000000' and expected object '300000000' are equal
+
+01-03-2024T18:19:42 - [MESSAGE][PASSED] - Actual object '300000000' and expected object '300000000' are equal
+
+01-03-2024T18:19:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291982593.png]]
+
+01-03-2024T18:19:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-03-2024T18:19:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positif/TC_Positive_Hitung_Properti" time="17.273" classname="Test Cases/Positif/TC_Positive_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[01-03-2024T18:19:43 - [TEST_CASE][PASSED] - Test Cases/Positif/TC_Positive_Hitung_Properti: Test Cases/Positif/TC_Positive_Hitung_Properti
+
+01-03-2024T18:19:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T18:19:43 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+01-03-2024T18:19:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T18:19:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T18:19:46 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:19:48 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:19:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-03-2024T18:19:48 - [MESSAGE][PASSED] - Current window maximized
+
+01-03-2024T18:19:48 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '50000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:48 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '50000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:50 - [MESSAGE][PASSED] - Text '50000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:19:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291991254.png]]
+
+01-03-2024T18:19:51 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '2000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '2000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:52 - [MESSAGE][PASSED] - Text '2000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:19:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291992574.png]]
+
+01-03-2024T18:19:52 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:54 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:19:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291994817.png]]
+
+01-03-2024T18:19:54 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:19:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:19:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291998904.png]]
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal"), 0): Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T18:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - nilai_Penghasilan = Double.parseDouble(Penghasilan): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - nilai_Pengeluaran = Double.parseDouble(Pengeluaran): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - number_only_JW = Jangka_Waktu.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - angka_JW = Integer.parseInt(number_only_JW): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran: null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - nilai_Hasil_Jangka_Waktu = 12 * angka_JW: null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3: null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - Hasil_hitung_rekomen_harga = String.format("%.0f", nilai_perhitungan_properti): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - println(Hasil_hitung_rekomen_harga): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - Nilail_Rekomen_hitung_properti = getText(findTestObject("OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 1.920.000.000'
+
+01-03-2024T18:19:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 1.920.000.000'
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - println(get_hasil_RekomHarga): null
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga): Actual object '1920000000' and expected object '1920000000' are equal
+
+01-03-2024T18:19:59 - [MESSAGE][PASSED] - Actual object '1920000000' and expected object '1920000000' are equal
+
+01-03-2024T18:19:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709291999987.png]]
+
+01-03-2024T18:20:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-03-2024T18:20:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positif/TC_Positive_Hitung_Properti" time="16.06" classname="Test Cases/Positif/TC_Positive_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[01-03-2024T18:20:00 - [TEST_CASE][PASSED] - Test Cases/Positif/TC_Positive_Hitung_Properti: Test Cases/Positif/TC_Positive_Hitung_Properti
+
+01-03-2024T18:20:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T18:20:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+01-03-2024T18:20:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T18:20:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T18:20:03 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:20:04 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:20:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-03-2024T18:20:04 - [MESSAGE][PASSED] - Current window maximized
+
+01-03-2024T18:20:04 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:04 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:08 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292008507.png]]
+
+01-03-2024T18:20:08 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:09 - [MESSAGE][PASSED] - Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292009874.png]]
+
+01-03-2024T18:20:09 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:11 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292011650.png]]
+
+01-03-2024T18:20:11 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:20:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292014926.png]]
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal"), 0): Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T18:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - nilai_Penghasilan = Double.parseDouble(Penghasilan): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - nilai_Pengeluaran = Double.parseDouble(Pengeluaran): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - number_only_JW = Jangka_Waktu.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - angka_JW = Integer.parseInt(number_only_JW): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran: null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - nilai_Hasil_Jangka_Waktu = 12 * angka_JW: null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3: null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - Hasil_hitung_rekomen_harga = String.format("%.0f", nilai_perhitungan_properti): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - println(Hasil_hitung_rekomen_harga): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - Nilail_Rekomen_hitung_properti = getText(findTestObject("OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 392.000.000'
+
+01-03-2024T18:20:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 392.000.000'
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - println(get_hasil_RekomHarga): null
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga): Actual object '392000000' and expected object '392000000' are equal
+
+01-03-2024T18:20:15 - [MESSAGE][PASSED] - Actual object '392000000' and expected object '392000000' are equal
+
+01-03-2024T18:20:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292015958.png]]
+
+01-03-2024T18:20:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-03-2024T18:20:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positif/TC_Positive_Hitung_Properti" time="17.455" classname="Test Cases/Positif/TC_Positive_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[01-03-2024T18:20:16 - [TEST_CASE][PASSED] - Test Cases/Positif/TC_Positive_Hitung_Properti: Test Cases/Positif/TC_Positive_Hitung_Properti
+
+01-03-2024T18:20:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T18:20:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+01-03-2024T18:20:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T18:20:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T18:20:19 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:20:22 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:20:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-03-2024T18:20:23 - [MESSAGE][PASSED] - Current window maximized
+
+01-03-2024T18:20:23 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:25 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292025505.png]]
+
+01-03-2024T18:20:25 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:26 - [MESSAGE][PASSED] - Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292027223.png]]
+
+01-03-2024T18:20:27 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:28 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292029106.png]]
+
+01-03-2024T18:20:29 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:20:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292032382.png]]
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal"), 0): Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T18:20:32 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - nilai_Penghasilan = Double.parseDouble(Penghasilan): null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - nilai_Pengeluaran = Double.parseDouble(Pengeluaran): null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - number_only_JW = Jangka_Waktu.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - angka_JW = Integer.parseInt(number_only_JW): null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran: null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - nilai_Hasil_Jangka_Waktu = 12 * angka_JW: null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3: null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - Hasil_hitung_rekomen_harga = String.format("%.0f", nilai_perhitungan_properti): null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - println(Hasil_hitung_rekomen_harga): null
+
+01-03-2024T18:20:32 - [TEST_STEP][PASSED] - Nilail_Rekomen_hitung_properti = getText(findTestObject("OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 392.000.000'
+
+01-03-2024T18:20:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 392.000.000'
+
+01-03-2024T18:20:33 - [TEST_STEP][PASSED] - get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:20:33 - [TEST_STEP][PASSED] - println(get_hasil_RekomHarga): null
+
+01-03-2024T18:20:33 - [TEST_STEP][PASSED] - verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga): Actual object '392000000' and expected object '392000000' are equal
+
+01-03-2024T18:20:33 - [MESSAGE][PASSED] - Actual object '392000000' and expected object '392000000' are equal
+
+01-03-2024T18:20:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292033511.png]]
+
+01-03-2024T18:20:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-03-2024T18:20:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positif/TC_Positive_Hitung_Properti" time="17.118" classname="Test Cases/Positif/TC_Positive_Hitung_Properti" status="PASSED">
+         <system-out><![CDATA[01-03-2024T18:20:33 - [TEST_CASE][PASSED] - Test Cases/Positif/TC_Positive_Hitung_Properti: Test Cases/Positif/TC_Positive_Hitung_Properti
+
+01-03-2024T18:20:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T18:20:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+01-03-2024T18:20:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T18:20:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T18:20:36 - [TEST_STEP][PASSED] - navigateToUrl(UrlHitungProperti): Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:20:38 - [MESSAGE][PASSED] - Navigate to 'https://www.btnproperti.co.id/tools/hitung-harga-properti' successfully
+
+01-03-2024T18:20:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-03-2024T18:20:39 - [MESSAGE][PASSED] - Current window maximized
+
+01-03-2024T18:20:39 - [TEST_STEP][PASSED] - if (Penghasilan != ""): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:39 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Perhitungan_Properti _BTN/input_Penghasilan"), Penghasilan): Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:41 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Penghasilan'
+
+01-03-2024T18:20:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292041904.png]]
+
+01-03-2024T18:20:42 - [TEST_STEP][PASSED] - if (Pengeluaran != ""): Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran"), Pengeluaran): Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:42 - [MESSAGE][PASSED] - Text '200000' is set on object 'Object Repository/OR_Perhitungan_Properti _BTN/input_Pengeluaran'
+
+01-03-2024T18:20:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292043642.png]]
+
+01-03-2024T18:20:43 - [TEST_STEP][PASSED] - if (Jangka_Waktu != ""): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu"), Jangka_Waktu, true): All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:45 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/OR_Perhitungan_Properti _BTN/select_jangkaWaktu'  using regular expression
+
+01-03-2024T18:20:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292045753.png]]
+
+01-03-2024T18:20:45 - [TEST_STEP][PASSED] - click(findTestObject("OR_Perhitungan_Properti _BTN/button_Hitung")): Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Perhitungan_Properti _BTN/button_Hitung' is clicked on
+
+01-03-2024T18:20:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292049103.png]]
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal"), 0): Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T18:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal' is present
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - nilai_Penghasilan = Double.parseDouble(Penghasilan): null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - nilai_Pengeluaran = Double.parseDouble(Pengeluaran): null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - number_only_JW = Jangka_Waktu.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - angka_JW = Integer.parseInt(number_only_JW): null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran: null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - nilai_Hasil_Jangka_Waktu = 12 * angka_JW: null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3: null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - Hasil_hitung_rekomen_harga = String.format("%.0f", nilai_perhitungan_properti): null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - println(Hasil_hitung_rekomen_harga): null
+
+01-03-2024T18:20:49 - [TEST_STEP][PASSED] - Nilail_Rekomen_hitung_properti = getText(findTestObject("OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga")): Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 392.000.000'
+
+01-03-2024T18:20:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga' is: 'Rp 392.000.000'
+
+01-03-2024T18:20:50 - [TEST_STEP][PASSED] - get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll("[^0-9]", ""): null
+
+01-03-2024T18:20:50 - [TEST_STEP][PASSED] - println(get_hasil_RekomHarga): null
+
+01-03-2024T18:20:50 - [TEST_STEP][PASSED] - verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga): Actual object '392000000' and expected object '392000000' are equal
+
+01-03-2024T18:20:50 - [MESSAGE][PASSED] - Actual object '392000000' and expected object '392000000' are equal
+
+01-03-2024T18:20:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-03-2024T18:20:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\NOTO\\hitungProperti\\Reports\\20240301_181859\\DDT_TC1_Positive_Rekomendasi_harga\\20240301_181859\\1709292050305.png]]
+
+01-03-2024T18:20:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-03-2024T18:20:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T18:19:04 - [TEST_SUITE][PASSED] - DDT_TC1_Positive_Rekomendasi_harga: Test Cases/Positif/TC_Positive_Hitung_Properti]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

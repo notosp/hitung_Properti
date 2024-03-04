@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Negative_Hitung_Properti</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86996930-99cb-4062-9621-f6d032801733</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>41e224aa-3c06-4e71-a18b-324d9108ebda</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50210db7-6aa6-473e-98b1-0f87d6254524</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24bb0484-4c96-4c38-ae1d-02b44691235e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'6000000'</defaultValue>
+      <description></description>
+      <id>41e224aa-3c06-4e71-a18b-324d9108ebda</id>
+      <masked>false</masked>
+      <name>Penghasilan</name>
+   </variable>
+   <variable>
+      <defaultValue>'7000000'</defaultValue>
+      <description></description>
+      <id>50210db7-6aa6-473e-98b1-0f87d6254524</id>
+      <masked>false</masked>
+      <name>Pengeluaran</name>
+   </variable>
+   <variable>
+      <defaultValue>'15'</defaultValue>
+      <description></description>
+      <id>24bb0484-4c96-4c38-ae1d-02b44691235e</id>
+      <masked>false</masked>
+      <name>Jangka_Waktu</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,118 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Pethitungan_Properti,Edge Chromium 122,,,04-03-2024 11:33:48,04-03-2024 11:35:55,2m - 6.864s,FAILED
+,,,,,,,
+Test Cases/Positif/TC_Positive_Hitung_Properti,Edge Chromium 122,Simulasi perhitungan properti,,04-03-2024 11:33:49,04-03-2024 11:34:19,30.298s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,04-03-2024 11:33:49,04-03-2024 11:33:52,2.640s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,04-03-2024 11:33:52,04-03-2024 11:34:02,9.826s,PASSED
+maximizeWindow(),Edge Chromium 122,,,04-03-2024 11:34:02,04-03-2024 11:34:02,0.222s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,04-03-2024 11:34:02,04-03-2024 11:34:04,1.727s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:04,04-03-2024 11:34:04,0.687s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,04-03-2024 11:34:04,04-03-2024 11:34:06,1.369s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:06,04-03-2024 11:34:06,0.498s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,04-03-2024 11:34:06,04-03-2024 11:34:09,2.434s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:09,04-03-2024 11:34:09,0.514s,PASSED
+"click(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""))",Edge Chromium 122,,,04-03-2024 11:34:09,04-03-2024 11:34:15,5.699s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:15,04-03-2024 11:34:16,1.032s,PASSED
+"verifyElementPresent(findTestObject(""OR_Perhitungan_Properti _BTN/Title_Harga Properti Maksimal""), 0)",Edge Chromium 122,Vaerifikasi Hasil berasil menampilkan rekomendasi harga yang sesuai dengan perhitungan formula,,04-03-2024 11:34:16,04-03-2024 11:34:17,0.691s,PASSED
+nilai_Penghasilan = Double.parseDouble(Penghasilan),Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.027s,PASSED
+nilai_Pengeluaran = Double.parseDouble(Pengeluaran),Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.004s,PASSED
+"number_only_JW = Jangka_Waktu.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.013s,PASSED
+angka_JW = Integer.parseInt(number_only_JW),Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.085s,PASSED
+nilai_sisa_pendapatan = nilai_Penghasilan - nilai_Pengeluaran,Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.039s,PASSED
+nilai_Hasil_Jangka_Waktu = 12 * angka_JW,Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.043s,PASSED
+nilai_perhitungan_properti = nilai_sisa_pendapatan * nilai_Hasil_Jangka_Waktu / 3,Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.100s,PASSED
+"Hasil_hitung_rekomen_harga = String.format(""%.0f"", nilai_perhitungan_properti)",Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.018s,PASSED
+println(Hasil_hitung_rekomen_harga),Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:17,0.013s,PASSED
+"Nilail_Rekomen_hitung_properti = getText(findTestObject(""OR_Perhitungan_Properti _BTN/Result_Rekomendasi Harga""))",Edge Chromium 122,,,04-03-2024 11:34:17,04-03-2024 11:34:18,1.021s,PASSED
+"get_hasil_RekomHarga = Nilail_Rekomen_hitung_properti.replaceAll(""[^0-9]"", """")",Edge Chromium 122,,,04-03-2024 11:34:18,04-03-2024 11:34:18,0.004s,PASSED
+println(get_hasil_RekomHarga),Edge Chromium 122,,,04-03-2024 11:34:18,04-03-2024 11:34:18,0.006s,PASSED
+"verifyEqual(get_hasil_RekomHarga, Hasil_hitung_rekomen_harga)",Edge Chromium 122,,,04-03-2024 11:34:18,04-03-2024 11:34:18,0.053s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:18,04-03-2024 11:34:19,0.436s,PASSED
+closeBrowser(),Edge Chromium 122,,,04-03-2024 11:34:19,04-03-2024 11:34:19,0.366s,PASSED
+,,,,,,,
+Test Cases/Negative/TC1_Negative_Hitung_Properti,Edge Chromium 122,,,04-03-2024 11:34:19,04-03-2024 11:34:36,17.021s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,04-03-2024 11:34:20,04-03-2024 11:34:21,1.379s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,04-03-2024 11:34:21,04-03-2024 11:34:28,7.358s,PASSED
+maximizeWindow(),Edge Chromium 122,,,04-03-2024 11:34:28,04-03-2024 11:34:29,0.159s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:29,04-03-2024 11:34:29,0.409s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,04-03-2024 11:34:29,04-03-2024 11:34:30,0.984s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:30,04-03-2024 11:34:30,0.532s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,04-03-2024 11:34:30,04-03-2024 11:34:31,0.801s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:31,04-03-2024 11:34:32,0.617s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,04-03-2024 11:34:32,04-03-2024 11:34:34,1.820s,PASSED
+"scrollToElement(findTestObject(""OR_Perhitungan_Properti _BTN/Title_page""), 2)",Edge Chromium 122,"Verifikasi Pesan error Input Pengeluaran ""Isi kurang dari nilai sebelumnya"" & Disable tombol hitung, melanjutkan proses hitung harga",,04-03-2024 11:34:34,04-03-2024 11:34:34,0.342s,PASSED
+"verifyTextPresent(""Isi kurang dari nilai sebelumnya"", false)",Edge Chromium 122,,,04-03-2024 11:34:34,04-03-2024 11:34:35,1.007s,PASSED
+"verifyElementHasAttribute(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""), ""disabled"", 5)",Edge Chromium 122,,,04-03-2024 11:34:35,04-03-2024 11:34:35,0.365s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:35,04-03-2024 11:34:36,0.459s,PASSED
+closeBrowser(),Edge Chromium 122,,,04-03-2024 11:34:36,04-03-2024 11:34:36,0.394s,PASSED
+,,,,,,,
+Test Cases/Negative/TC1_Negative_Hitung_Properti,Edge Chromium 122,,,04-03-2024 11:34:36,04-03-2024 11:34:54,17.537s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,04-03-2024 11:34:36,04-03-2024 11:34:38,1.434s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,04-03-2024 11:34:38,04-03-2024 11:34:45,7.288s,PASSED
+maximizeWindow(),Edge Chromium 122,,,04-03-2024 11:34:45,04-03-2024 11:34:45,0.144s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:45,04-03-2024 11:34:46,0.425s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,04-03-2024 11:34:46,04-03-2024 11:34:47,0.928s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:47,04-03-2024 11:34:47,0.498s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,04-03-2024 11:34:47,04-03-2024 11:34:48,0.758s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:48,04-03-2024 11:34:48,0.603s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,04-03-2024 11:34:48,04-03-2024 11:34:51,2.426s,PASSED
+"scrollToElement(findTestObject(""OR_Perhitungan_Properti _BTN/Title_page""), 2)",Edge Chromium 122,"Verifikasi Pesan error Input Pengeluaran ""Isi kurang dari nilai sebelumnya"" & Disable tombol hitung, melanjutkan proses hitung harga",,04-03-2024 11:34:51,04-03-2024 11:34:51,0.484s,PASSED
+"verifyTextPresent(""Isi kurang dari nilai sebelumnya"", false)",Edge Chromium 122,,,04-03-2024 11:34:51,04-03-2024 11:34:53,1.393s,PASSED
+"verifyElementHasAttribute(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""), ""disabled"", 5)",Edge Chromium 122,,,04-03-2024 11:34:53,04-03-2024 11:34:53,0.318s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:34:53,04-03-2024 11:34:54,0.381s,PASSED
+closeBrowser(),Edge Chromium 122,,,04-03-2024 11:34:54,04-03-2024 11:34:54,0.416s,PASSED
+,,,,,,,
+Test Cases/Negative/TC1_Negative_Hitung_Properti,Edge Chromium 122,,,04-03-2024 11:34:54,04-03-2024 11:35:12,17.618s,FAILED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,04-03-2024 11:34:54,04-03-2024 11:34:55,1.348s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,04-03-2024 11:34:55,04-03-2024 11:35:06,10.280s,PASSED
+maximizeWindow(),Edge Chromium 122,,,04-03-2024 11:35:06,04-03-2024 11:35:06,0.147s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:06,04-03-2024 11:35:06,0.402s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,04-03-2024 11:35:06,04-03-2024 11:35:07,1.084s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:07,04-03-2024 11:35:08,0.511s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,04-03-2024 11:35:08,04-03-2024 11:35:08,0.000s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:08,04-03-2024 11:35:08,0.506s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,04-03-2024 11:35:08,04-03-2024 11:35:10,1.869s,PASSED
+"scrollToElement(findTestObject(""OR_Perhitungan_Properti _BTN/Title_page""), 2)",Edge Chromium 122,"Verifikasi Pesan error Input Pengeluaran ""Isi kurang dari nilai sebelumnya"" & Disable tombol hitung, melanjutkan proses hitung harga",,04-03-2024 11:35:10,04-03-2024 11:35:11,0.331s,PASSED
+"verifyTextPresent(""Isi kurang dari nilai sebelumnya"", false)",Edge Chromium 122,,,04-03-2024 11:35:11,04-03-2024 11:35:12,1.079s,FAILED
+,,,,,,,
+Test Cases/Negative/TC1_Negative_Hitung_Properti,Edge Chromium 122,,,04-03-2024 11:35:12,04-03-2024 11:35:26,14.379s,FAILED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,04-03-2024 11:35:12,04-03-2024 11:35:13,1.541s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,04-03-2024 11:35:13,04-03-2024 11:35:20,6.960s,PASSED
+maximizeWindow(),Edge Chromium 122,,,04-03-2024 11:35:20,04-03-2024 11:35:20,0.144s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:20,04-03-2024 11:35:21,0.393s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,04-03-2024 11:35:21,04-03-2024 11:35:21,0.001s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:21,04-03-2024 11:35:21,0.370s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,04-03-2024 11:35:21,04-03-2024 11:35:22,1.287s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:22,04-03-2024 11:35:23,0.467s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,04-03-2024 11:35:23,04-03-2024 11:35:25,1.785s,PASSED
+"scrollToElement(findTestObject(""OR_Perhitungan_Properti _BTN/Title_page""), 2)",Edge Chromium 122,"Verifikasi Pesan error Input Pengeluaran ""Isi kurang dari nilai sebelumnya"" & Disable tombol hitung, melanjutkan proses hitung harga",,04-03-2024 11:35:25,04-03-2024 11:35:25,0.321s,PASSED
+"verifyTextPresent(""Isi kurang dari nilai sebelumnya"", false)",Edge Chromium 122,,,04-03-2024 11:35:25,04-03-2024 11:35:26,1.077s,FAILED
+,,,,,,,
+Test Cases/Negative/TC1_Negative_Hitung_Properti,Edge Chromium 122,,,04-03-2024 11:35:26,04-03-2024 11:35:39,12.555s,FAILED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,04-03-2024 11:35:26,04-03-2024 11:35:28,1.426s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,04-03-2024 11:35:28,04-03-2024 11:35:36,8.434s,PASSED
+maximizeWindow(),Edge Chromium 122,,,04-03-2024 11:35:36,04-03-2024 11:35:36,0.141s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:36,04-03-2024 11:35:37,0.377s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,04-03-2024 11:35:37,04-03-2024 11:35:37,0.000s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:37,04-03-2024 11:35:37,0.377s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,04-03-2024 11:35:37,04-03-2024 11:35:37,0.001s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:37,04-03-2024 11:35:37,0.374s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,04-03-2024 11:35:37,04-03-2024 11:35:37,0.000s,PASSED
+"scrollToElement(findTestObject(""OR_Perhitungan_Properti _BTN/Title_page""), 2)",Edge Chromium 122,"Verifikasi Pesan error Input Pengeluaran ""Isi kurang dari nilai sebelumnya"" & Disable tombol hitung, melanjutkan proses hitung harga",,04-03-2024 11:35:37,04-03-2024 11:35:38,0.330s,PASSED
+"verifyTextPresent(""Isi kurang dari nilai sebelumnya"", false)",Edge Chromium 122,,,04-03-2024 11:35:38,04-03-2024 11:35:39,1.066s,FAILED
+,,,,,,,
+Test Cases/Negative/TC1_Negative_Hitung_Properti,Edge Chromium 122,,,04-03-2024 11:35:39,04-03-2024 11:35:55,16.338s,PASSED
+"openBrowser("""")",Edge Chromium 122,Membuka Website Properti BTN,,04-03-2024 11:35:39,04-03-2024 11:35:40,1.440s,PASSED
+navigateToUrl(UrlHitungProperti),Edge Chromium 122,,,04-03-2024 11:35:40,04-03-2024 11:35:47,6.274s,PASSED
+maximizeWindow(),Edge Chromium 122,,,04-03-2024 11:35:47,04-03-2024 11:35:47,0.155s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:47,04-03-2024 11:35:47,0.418s,PASSED
+"if (Penghasilan != """")",Edge Chromium 122,Input Nilai Pemasukan,,04-03-2024 11:35:47,04-03-2024 11:35:48,0.955s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:48,04-03-2024 11:35:49,0.507s,PASSED
+"if (Pengeluaran != """")",Edge Chromium 122,Input Nilai Pengeluaran,,04-03-2024 11:35:49,04-03-2024 11:35:49,0.744s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:49,04-03-2024 11:35:50,0.612s,PASSED
+"if (Jangka_Waktu != """")",Edge Chromium 122,Pilih Jangka Waktu,,04-03-2024 11:35:50,04-03-2024 11:35:52,2.454s,PASSED
+"scrollToElement(findTestObject(""OR_Perhitungan_Properti _BTN/Title_page""), 2)",Edge Chromium 122,"Verifikasi Pesan error Input Pengeluaran ""Isi kurang dari nilai sebelumnya"" & Disable tombol hitung, melanjutkan proses hitung harga",,04-03-2024 11:35:52,04-03-2024 11:35:53,0.322s,PASSED
+"verifyTextPresent(""Isi kurang dari nilai sebelumnya"", false)",Edge Chromium 122,,,04-03-2024 11:35:53,04-03-2024 11:35:54,1.414s,PASSED
+"verifyElementHasAttribute(findTestObject(""OR_Perhitungan_Properti _BTN/button_Hitung""), ""disabled"", 5)",Edge Chromium 122,,,04-03-2024 11:35:54,04-03-2024 11:35:54,0.315s,PASSED
+takeScreenshot(),Edge Chromium 122,,,04-03-2024 11:35:54,04-03-2024 11:35:55,0.377s,PASSED
+closeBrowser(),Edge Chromium 122,,,04-03-2024 11:35:55,04-03-2024 11:35:55,0.315s,PASSED

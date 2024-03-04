@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Title_Page</name>
+   <tag></tag>
+   <elementGuidId>a55709ea-44cc-448d-bcfa-54ad948cc2cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'Hitung Harga Properti Maksimal' or . = 'Hitung Harga Properti Maksimal')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>a27fb0df-bf5b-4e10-8288-9976c76b9bf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hitung Harga Properti Maksimal</value>
+      <webElementGuid>b08b0087-d6c2-4ba7-91b2-fafe6fe832d9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

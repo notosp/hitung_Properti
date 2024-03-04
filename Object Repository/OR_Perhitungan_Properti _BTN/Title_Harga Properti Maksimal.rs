@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Title_Harga Properti Maksimal</name>
+   <tag></tag>
+   <elementGuidId>b93f9c58-d274-4454-8d01-86c99ee702f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='harga_hasil']/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>39dcbcec-746d-4000-8bbf-09b52f3ced36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harga Properti Maksimal Kamu</value>
+      <webElementGuid>bbdcf2f0-f6ab-4f36-8e3f-1f02632897b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;harga_hasil&quot;)/h5[1]</value>
+      <webElementGuid>2fd04066-5761-403f-bd11-a98265fb7f40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='harga_hasil']/h5</value>
+      <webElementGuid>7afa8977-f8fd-4020-aa30-46f2c2c0ab92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h5</value>
+      <webElementGuid>315173ae-4f45-4be2-969c-4238ae3f52e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Harga Properti Maksimal Kamu' or . = 'Harga Properti Maksimal Kamu')]</value>
+      <webElementGuid>0dbef2cc-c01c-42fc-b6f7-8b17f9d97eb2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

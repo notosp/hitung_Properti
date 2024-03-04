@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Pethitungan_Properti</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>eb67b8a0-4be0-44d3-a629-e9dca37193e0</testSuiteGuid>
+   <testCaseLink>
+      <guid>689f5a1b-ae68-4d4b-918a-2b506e7eefc7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Positif/TC_Positive_Hitung_Properti</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6924bc2b-0c89-4fc8-870a-c65ad8df6cf9</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/DDT_TC1_Positive_Input_Harga</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6924bc2b-0c89-4fc8-870a-c65ad8df6cf9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Penghasilan</value>
+         <variableId>82980811-7b83-4f85-a711-97bd8bb08a3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6924bc2b-0c89-4fc8-870a-c65ad8df6cf9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pengeluaran</value>
+         <variableId>2a566569-86b3-41d8-bd3d-086a3f880d4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6924bc2b-0c89-4fc8-870a-c65ad8df6cf9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Jangka Waktu</value>
+         <variableId>b40d724e-2048-4222-9265-ebb0fc6d69e6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ab069cc-0fd8-4fbb-9dc4-0615212ca056</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative/TC1_Negative_Hitung_Properti</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5cbc8903-5c77-4194-9d7c-8a9f385a68cf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TD_TC_Negative_Input Harga</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5cbc8903-5c77-4194-9d7c-8a9f385a68cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Penghasilan</value>
+         <variableId>41e224aa-3c06-4e71-a18b-324d9108ebda</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5cbc8903-5c77-4194-9d7c-8a9f385a68cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pengeluaran</value>
+         <variableId>50210db7-6aa6-473e-98b1-0f87d6254524</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5cbc8903-5c77-4194-9d7c-8a9f385a68cf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Jangka Waktu</value>
+         <variableId>24bb0484-4c96-4c38-ae1d-02b44691235e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
